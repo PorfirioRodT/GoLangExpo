@@ -13,3 +13,15 @@ func TestValuesShouldBeSorted (t *testing.T){
 	}
 
 }
+
+func TestValuesShouldBeGettingHashed (t *testing.T){
+
+	w := "bac"
+
+	if hashValues(w) == int32(1) {
+
+		t.Skip()
+
+	}
+
+}
